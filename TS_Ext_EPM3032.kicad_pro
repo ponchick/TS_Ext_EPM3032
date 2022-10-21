@@ -56,12 +56,12 @@
         }
       ],
       "drc_exclusions": [
-        "silk_over_copper|124460000|28520000|a1fc9e76-f48d-48ef-82ca-0039cbce850b|4eda0c7b-d539-40a1-83cf-9c113f43bea0",
-        "silk_over_copper|124460000|28520000|a1fc9e76-f48d-48ef-82ca-0039cbce850b|a3ceefab-d08f-4e1e-ae7a-2d08b2fe21bf",
-        "silk_over_copper|124460000|30020000|a1fc9e76-f48d-48ef-82ca-0039cbce850b|5b3b0785-b60f-4bf4-b563-f0450031975b",
-        "silk_over_copper|124460000|36020000|f0b34f07-a93e-459a-ae43-ef239586baf3|b7aa5595-9653-4b82-a960-cc010c1390a8",
-        "silk_over_copper|124460000|36020000|f0b34f07-a93e-459a-ae43-ef239586baf3|c7ecb492-7e50-4226-bc0f-dc50bb9a024d",
-        "silk_over_copper|124460000|37520000|f0b34f07-a93e-459a-ae43-ef239586baf3|2fc41099-9a6e-4b17-84c7-ea8834d727a5"
+        "silk_over_copper|121920000|28520000|a1fc9e76-f48d-48ef-82ca-0039cbce850b|4eda0c7b-d539-40a1-83cf-9c113f43bea0",
+        "silk_over_copper|121920000|28520000|a1fc9e76-f48d-48ef-82ca-0039cbce850b|a3ceefab-d08f-4e1e-ae7a-2d08b2fe21bf",
+        "silk_over_copper|121920000|30020000|a1fc9e76-f48d-48ef-82ca-0039cbce850b|5b3b0785-b60f-4bf4-b563-f0450031975b",
+        "silk_over_copper|121920000|36020000|f0b34f07-a93e-459a-ae43-ef239586baf3|b7aa5595-9653-4b82-a960-cc010c1390a8",
+        "silk_over_copper|121920000|36020000|f0b34f07-a93e-459a-ae43-ef239586baf3|c7ecb492-7e50-4226-bc0f-dc50bb9a024d",
+        "silk_over_copper|121920000|37520000|f0b34f07-a93e-459a-ae43-ef239586baf3|2fc41099-9a6e-4b17-84c7-ea8834d727a5"
       ],
       "meta": {
         "version": 2
@@ -371,7 +371,7 @@
     ]
   },
   "meta": {
-    "filename": "TS_ZXBUS_3032 v2.kicad_pro",
+    "filename": "TS_Ext_EPM3032.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -465,7 +465,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "TS-3032-${REVISION}-Schematic",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",
     "subpart_first_id": 65,
