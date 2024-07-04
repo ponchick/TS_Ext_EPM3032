@@ -7,7 +7,7 @@
 	(title_block
 		(title "TurboSound Extension Card EPM3032")
 		(date "2024-04-10")
-		(rev "1.4")
+		(rev "1.5")
 		(company "ponchick")
 		(comment 1 "Original schematic and firmware by MikhaelK")
 		(comment 2 "https://bitbucket.org/MikhaelK/double_ay_epm3032/src/master/")
@@ -13829,8 +13829,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 325.12 100.33 270)
+		(lib_id "Device:C_Polarized")
+		(at 325.12 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13839,7 +13839,7 @@
 		(fields_autoplaced yes)
 		(uuid "2ccede2a-0531-45f6-89b7-590a27d80906")
 		(property "Reference" "C14"
-			(at 325.12 94.4712 90)
+			(at 324.231 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13847,15 +13847,15 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 325.12 97.0081 90)
+			(at 324.231 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm"
-			(at 321.31 101.2952 0)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+			(at 328.93 99.3648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13863,7 +13863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 325.12 100.33 0)
 			(effects
 				(font
@@ -13872,7 +13872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Polarized capacitor"
 			(at 325.12 100.33 0)
 			(effects
 				(font
@@ -15343,7 +15343,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Device:C_Polarized")
 		(at 325.12 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15353,7 +15353,7 @@
 		(fields_autoplaced yes)
 		(uuid "64b93628-fad2-4b3d-83ff-0ebf314e87a7")
 		(property "Reference" "C13"
-			(at 325.12 47.4812 90)
+			(at 324.231 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15361,14 +15361,14 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 325.12 50.0181 90)
+			(at 324.231 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 328.93 52.3748 0)
 			(effects
 				(font
@@ -15377,7 +15377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 325.12 53.34 0)
 			(effects
 				(font
@@ -15386,7 +15386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Polarized capacitor"
 			(at 325.12 53.34 0)
 			(effects
 				(font

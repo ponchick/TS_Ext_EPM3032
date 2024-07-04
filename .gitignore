@@ -27,3 +27,5 @@ fp-info-cache
 *-backups/
 *.kicad_prl
 /old/
+~*.kicad_pcb.lck
+~*.kicad_sch.lck
